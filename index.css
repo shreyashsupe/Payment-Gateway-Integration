@@ -1,0 +1,132 @@
+body,html
+{
+    /* background-color: black; */
+    height: 100%;
+
+}
+
+.bg{
+    height: 100%;
+    background: url('/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.nav
+{
+    background-color: rgba(0, 0, 0, 0.856);
+    z-index: 9;
+    padding-left: 50px;
+    padding-right: 50px;
+    display:flex;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.856);
+}
+.nav_top
+{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+}
+.logo
+{
+    float:left;
+    width: 50%;
+}
+.logo img
+{
+    padding: 8px;
+    width:30%;
+    margin-left:10%;
+}
+.nav_side
+{
+    float:right;
+    width:45%;
+    margin-top: 20px;
+}
+.nav_side a
+{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left:50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.nav_side a:hover
+{
+    color: rgb(79, 255, 88);
+    transition: all 1s ease;
+}
+
+
+.main
+{
+    background-image: url("images/back.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130vh;
+}
+.main .main_content
+{
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:40%;
+}
+.main .main_content h2
+{
+    color: white;
+    font-size: 200%;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+}
+.main .main_content h2 span
+{
+    font-size:50%;
+    opacity: 0.9;
+    font-weight: 400;
+    line-height: 50px;
+}
+/* .main .main_content .btn
+{
+    margin-top:10%;
+    text-align: left;
+    width:0%;
+}
+.main .main_content .btn a
+{
+    text-decoration: none;
+    font-size: large;
+    margin:44%;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.856);
+    color:rgb(209, 10, 10);
+    font-family: 'Trebuchet MS', sans-serif; 
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.856);
+    transition: 0.5s;
+} */
+/* .main .main_content .btn a:hover
+{
+    background-color: rgba(255, 255, 255, 0.527);
+    color: rgb(37, 0, 19);
+    border: none;
+    border: 4px solid rgb(37, 0, 19);
+    transition:0.5s;
+} */
